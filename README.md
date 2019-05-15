@@ -12,7 +12,7 @@ Left Arrow Key and/or "A".
 #### Move Right: 
 Right Arrow Key and/or "D".
 
-##### Press both "Left + A" or "Right + D" at the same time for faster movement.
+#### Press both "Left + A" or "Right + D" at the same time for faster movement.
 
 ![](screenshots/aamenu.PNG)
 
