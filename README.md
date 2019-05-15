@@ -1,5 +1,7 @@
 # Asteroid Avoider
 
+Dodge oncoming asteroids with a UFO and compete for high scores.
+
 Play it at: https://asteroid-avoider.herokuapp.com/
 
 ![](screenshots/aagame.PNG)
