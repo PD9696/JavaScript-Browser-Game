@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Asteroid Avoider</title>
+  </head>
+
+  <body>
+    </br>
+    <image src = "img/title.png" id = "title" height="60" width="400">
+    </br>
+    <div id = "holder">
+      <canvas id = "canvas" width = "800" height = "600"></canvas>
+      <!-- Game buttons -->
+      <input type = "text" id = "input" maxlength = "15" placeholder="Insert name"/>
+      <button type = "button" class = "button" id = "replay" onclick = "reset()">Play Again</button>
+      <button type = "button" class = "button" id = "menuFromGame" onclick = "menu()">Return to Menu</button>
+      <button type = "button" class = "button" id = "submit" onclick = "submit()">Submit to Leaderboards</button>
+      <button type = "button" class = "button" id = "submitted">Score Submitted!</button>
+      <button type = "button" class = "button" id = "leaderboardsFromGame" onclick = "leaderboards()">View Leaderboards</button>
+      <!-- Menu buttons -->
+      <button type = "button" class = "button" id = "play" onclick = "reset()">Play</button>
+      <button type = "button" class = "button" id = "leaderboards" onclick = "leaderboards()">Leaderboards</button>
+      <button type = "button" class = "button" id = "credits" onclick = "credits()">Credits</button>
+      <!-- Credits and Leaderboards buttons -->
+      <button type = "button" class = "button" id = "menu" onclick = "menu()">Return to Menu</button>
+      <table id = "table">
+        <tr>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+      </table>
+    </div>
+    <script src = "game.js"></script>
+    <h4>Alpha release</h4>
+    <h4>Find the source code on <a href = "https://github.com/PD9696/JavaScript-Browser-Game">GitHub</a></h4>
+    <h2>Controls</h2>
+    <p><strong>Move Left:</strong> Left Arrow Key and/or "A".</p>
+    <p><strong>Move Right:</strong> Right Arrow Key and/or "D".</p>
+    <p>Press both "Left + A" or "Right + D" at the same time for faster movement.</p>
+  </body>
+</html>

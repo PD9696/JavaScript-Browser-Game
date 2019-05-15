@@ -1,0 +1,163 @@
+h2 {
+  color: white;
+  font: Arial;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h4 {
+  color: coral;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font: Arial;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+th {
+  border: 2px solid grey;
+  width: 330px;
+}
+
+td {
+  border: 1px solid grey;
+  width: 330px;
+  text-align: center;
+}
+
+#canvas {
+  border: 1px solid dimgrey;
+}
+
+#title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#holder {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 600px;
+}
+
+#input {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  border-color: grey;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 265px;
+  top: 285px;
+  width: 265px;
+  height: 30px;
+}
+
+#replay {
+  left: 160px;
+  top: 415px;
+}
+
+#menuFromGame {
+  left: 465px;
+  top: 415px;
+}
+
+#menu {
+  left: 25px;
+  top: 50px;
+}
+#menu:hover {
+  background-color: dimgrey;
+}
+
+#submit {
+  background-color: black;
+  width: 269px;
+  left: 265px;
+  top: 320px;
+}
+#submit:hover {
+  background-color: dimgrey;
+}
+
+#submitted {
+  text-align: center;
+  background-color: black;
+  border-color: grey;
+  width: 269px;
+  left: 265px;
+  top: 288px;
+}
+
+#play {
+  background-color: black;
+  left: 355px;
+  top: 200px;
+}
+#play:hover {
+  background-color: dimgrey;
+}
+
+#leaderboards {
+  background-color: black;
+  left: 310px;
+  top: 300px;
+}
+#leaderboards:hover {
+  background-color: dimgrey;
+}
+
+#leaderboardsFromGame {
+  background-color: black;
+  width: 269px;
+  left: 265px;
+  top: 320px;
+}
+#leaderboardsFromGame:hover {
+  background-color: dimgrey;
+}
+
+#credits {
+  background-color: black;
+  left: 345px;
+  top: 400px;
+}
+#credits:hover {
+  background-color: dimgrey;
+}
+
+#table {
+  position: absolute;
+  max-height: 320px;
+  overflow: auto;
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  left: 60px;
+  top: 145px;
+  border: 1px solid grey;
+}
+
+.button {
+  border-radius: 10px;
+  background-color: Transparent;
+  color: white;
+  font-size: 23px;
+  position: absolute;
+}
+.button:hover {
+  background-color: dimgrey;
+}
