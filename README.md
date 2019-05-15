@@ -4,6 +4,8 @@ Play it at: https://asteroid-avoider.herokuapp.com/
 
 ![](screenshots/aagame.PNG)
 
+![](screenshots/aamenu.PNG)
+
 ## Controls
 
 #### Move Left: 
@@ -19,6 +21,4 @@ Up Arrow Key and/or "W".
 Down Arrow Key and/or "S".
 
 #### Press both "Left + A", "Right + D", "Up + W" or "Down + S" at the same time for faster movement.
-
-![](screenshots/aamenu.PNG)
 
